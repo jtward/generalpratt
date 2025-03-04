@@ -1,0 +1,18 @@
+{
+  "name": "generalpratt",
+  "version": "0.0.1",
+  "description": "A generalized Pratt parser",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "c8 --reporter=lcov mocha"
+  },
+  "author": "James Ward",
+  "license": "MIT",
+  "devDependencies": {
+    "c8": "^10.1.3",
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0"
+  }
+}
